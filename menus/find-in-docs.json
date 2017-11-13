@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle find-in-docs",
+        "command": "find-in-docs:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "find-in-docs",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "find-in-docs:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
