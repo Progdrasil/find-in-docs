@@ -15,8 +15,8 @@
           "label": "find-in-docs",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "find-in-docs:toggle"
+              "label": "Find",
+              "command": "find-in-docs:find"
             }
           ]
         }
